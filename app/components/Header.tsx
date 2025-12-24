@@ -16,7 +16,7 @@ export default function Header() {
     <header className="bg-white border-b">
       <div className="mx-auto max-w-7xl px-6">
         {/* Mobile Layout */}
-        <div className="flex flex-row items-center justify-between py-4 lg:hidden">دحپ
+        <div className="flex flex-row items-center justify-between py-4 lg:hidden">
           {/* Hamburger Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
